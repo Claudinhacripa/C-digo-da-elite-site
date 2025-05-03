@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 3em 1em 1em;
+    background-color: #111;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-top: 0.5em;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+}
+
+.livro img {
+    max-width: 300px;
+    margin-bottom: 1em;
+}
+
+.descricao {
+    max-width: 600px;
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    background-color: gold;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #d4af37;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #111;
+    font-size: 0.9em;
+    color: #aaa;
+}
